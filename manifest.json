@@ -1,0 +1,26 @@
+{
+  "name": "C5C FBState Utility",
+  "version": "1.5",
+  "description": "Import/export fbstate.json which can be used to let bot login.",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "https://*.facebook.com/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo/128.png"
+    }
+  },
+  "icons": {
+    "128": "logo/128.png"
+  },
+  "manifest_version": 2
+}
